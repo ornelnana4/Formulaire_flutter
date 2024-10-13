@@ -1,0 +1,47 @@
+name: formulaire_final
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For iOS style icons
+  cupertino_icons: ^1.0.8
+
+  # SQLite plugin for Flutter
+  sqflite: ^2.0.0+3
+
+  # To get the correct file paths for databases, assets, etc.
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints to encourage good coding practices
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add images or other assets to your project
+  # uncomment the following lines and add your assets
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your application, add a fonts section here.
+  # For example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
