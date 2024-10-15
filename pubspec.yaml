@@ -20,6 +20,9 @@ dependencies:
 
   # To get the correct file paths for databases, assets, etc.
   path: ^1.8.0
+  camera: ^0.10.0+3 # Ajoute ce package pour la caméra
+  image_picker: ^0.8.4+4
+
 
 dev_dependencies:
   flutter_test:
